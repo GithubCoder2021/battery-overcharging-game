@@ -1,5 +1,5 @@
-percent = new Decimal(0);
-charge = new Decimal(1);
+let percent = new Decimal(0);
+let charge = new Decimal(1);
 setInterval(function() {
   percent = percent.add(charge);
 	
