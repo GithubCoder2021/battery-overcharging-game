@@ -12,7 +12,8 @@ function buyUpg1() {
    if (costCheck == true) {
 	   percent = percent.sub(upg1);
 	   charge = charge.mul(2);
-	   upg1 = upg1.mul(2);      
+	   upg1 = upg1.mul(2);  
+	   document.getElementById("upg1").innerText = upg1;
    } 
 	
 }
