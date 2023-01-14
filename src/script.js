@@ -11,6 +11,7 @@ function buyUpg1() {
    costCheck = percent.greaterThanOrEqualTo(upg1);
    if (costCheck == true) {
 	   percent = percent.sub(upg1);
+	   document.getElementById("percent").innerText = percent;
 	   charge = charge.mul(2);
 	   upg1 = upg1.mul(2);  
 	   document.getElementById("upg1").innerText = upg1;
