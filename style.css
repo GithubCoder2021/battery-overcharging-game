@@ -4,7 +4,21 @@ body{
   color: white;
 }
 h1{
- font-size: 2.75em;
+ font-size: 3em;
 }
   
+.upgrades{
+  background-color: red; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+  
+.upg2{background-color: orange;}
+.upg3{background-color: yellow;}
+
   
