@@ -8,7 +8,7 @@ h1{
 }
   
 .upgrades{
-  background-color: red; /* Green */
+  background-color: grey; /* Green */
   border: none;
   color: black;
   padding: 15px 32px;
@@ -17,7 +17,8 @@ h1{
   display: inline-block;
   font-size: 16px;
 }
-  
+ 
+.upg1{background-color: red;}
 .upg2{background-color: orange;}
 .upg3{background-color: yellow;}
 
