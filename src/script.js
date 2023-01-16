@@ -32,7 +32,7 @@ function buyUpg2() {
    } 
 	
 }
-function buyUpg2() { 
+function buyUpg3() { 
    costCheck = percent.greaterThanOrEqualTo(upg3);
    if (costCheck == true) {
 	   percent = percent.sub(upg3);
