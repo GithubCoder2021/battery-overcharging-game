@@ -3,6 +3,7 @@ let charge = new Decimal(1);
 let upg1 = new Decimal(10);
 let upg2 = new Decimal(250);
 let upg3 = new Decimal(2500);
+let upg4 = new Decimal(5000);
 
 setInterval(function() {
   percent = percent.add(charge);
@@ -44,6 +45,19 @@ function buyUpg3() {
 	   upg3 = upg3.mul(1.3);  
 	   upg3 = upg3.floor();
 	   document.getElementById("upg3").innerText = upg3;
+   } 
+	
+}
+
+function buyUpg4() { 
+   costCheck = percent.greaterThanOrEqualTo(upg4);
+   if (costCheck == true) {
+	   percent = percent.sub(upg4);
+	   document.getElementById("percent").innerText = percent;
+	   charge = charge.mul(2);
+	   upg4 = upg4.mul(2.2);  
+	   upg4 = upg4.floor();
+	   document.getElementById("upg4").innerText = upg4;
    } 
 	
 }
