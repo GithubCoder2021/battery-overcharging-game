@@ -27,6 +27,7 @@ h1{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  transition: border 1s, background-color 1s, color 1s;
 }
 .up1:hover{
   border: 5px solid red;
@@ -47,6 +48,7 @@ h1{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  transition: border 1s, background-color 1s, color 1s;
 }
 .up2:hover{
   border: 5px solid orange;
@@ -67,6 +69,7 @@ h1{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  transition: border 1s, background-color 1s, color 1s;
 }
 .up3:hover{
   border: 5px solid yellow;
@@ -87,6 +90,7 @@ h1{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  transition: border 1s, background-color 1s, color 1s;
 }
 .up4:hover{
   border: 5px solid #08ff39;
