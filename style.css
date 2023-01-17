@@ -20,9 +20,9 @@ h1{
  
 .up1{
   border: 5px solid red;
-  background-color: red;
+  background-color: #f78888;
   text-align: center;
-  color: black;
+  color: #c70606;
   padding: 15px 32px;
   text-decoration: none;
   display: inline-block;
@@ -30,9 +30,9 @@ h1{
 }
 .up2{
   border: 5px solid orange;
-  background-color: orange;
+  background-color: #f7c388;
   text-align: center;
-  color: black;
+  color: #c77306;
   padding: 15px 32px;
   text-decoration: none;
   display: inline-block;
@@ -40,20 +40,20 @@ h1{
 }
 .up3{
   border: 5px solid yellow;
-  background-color: yellow;
+  background-color: #f7f488;
   text-align: center;
   padding: 15px 32px;
-  color: black;
+  color: #c0c706;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
 }
 .up4{
-  border: 5px solid green;
-  background-color: green;
+  border: 5px solid #08ff39;
+  background-color: #73ff8f;
   text-align: center;
   padding: 20px 32px;
-  color: black;
+  color: #06c730;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
