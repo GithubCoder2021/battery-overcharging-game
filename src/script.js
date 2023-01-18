@@ -72,5 +72,12 @@ function save() {
   }
  localStorage.setItem("save",JSON.stringify(save));
  var savegame = JSON.parse(localStorage.getItem("save"));
+ if (typeof savegame.percent !== "undefined") percent = savegame.percent;
+ if (typeof savegame.charge !== "undefined") charge = savegame.charge;
+ if (typeof savegame.upg1 !== "undefined") upg1 = savegame.upg1;
+ if (typeof savegame.upg2 !== "undefined") upg2 = savegame.upg2;
+ if (typeof savegame.upg3 !== "undefined") upg3 = savegame.upg3;
+ if (typeof savegame.upg4 !== "undefined") upg4 = savegame.upg4;
+
 
 }
