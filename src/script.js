@@ -7,7 +7,7 @@ let upg4 = new Decimal(5000);
 
 setInterval(function() {
   percent = percent.add(charge);
-	
+  save();
   document.getElementById("percent").innerText = percent;
 }, 1000);
 
@@ -78,6 +78,19 @@ function save() {
  if (typeof savegame.upg2 !== "undefined") upg2 = savegame.upg2;
  if (typeof savegame.upg3 !== "undefined") upg3 = savegame.upg3;
  if (typeof savegame.upg4 !== "undefined") upg4 = savegame.upg4;
+}
 
-
+function hardReset() {
+ reset = "ARE YOU SURE?!!!";
+ if (comfirm(reset) == true) {
+  alert("NOOOOOOOO...")
+  localStorage.removeItem("save")
+  let percent = new Decimal(0);
+  let charge = new Decimal(1);
+  let upg1 = new Decimal(10);
+  let upg2 = new Decimal(250);
+  let upg3 = new Decimal(2500);
+  let upg4 = new Decimal(5000);
+  document.location.reload();
+ }
 }
