@@ -61,3 +61,16 @@ function buyUpg4() {
    } 
 	
 }
+function save() {
+  var save = {
+    percent: percent,
+    charge: charge,
+    upg1: upg1,
+    upg2: upg2,
+    upg3: upg3,
+    upg4: upg4
+  }
+ localStorage.setItem("save",JSON.stringify(save));
+ var savegame = JSON.parse(localStorage.getItem("save"));
+
+}
