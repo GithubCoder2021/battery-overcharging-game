@@ -91,6 +91,6 @@ function hardReset() {
   let upg2 = new Decimal(250);
   let upg3 = new Decimal(2500);
   let upg4 = new Decimal(5000);
-  document.location.reload();
+  window.location.reload();
  }
 }
