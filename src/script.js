@@ -32,7 +32,7 @@ function buyUpg2() {
 	
 }
 
-function buyUpg4() { 
+function buyUpg3() { 
    if (percent.gte(upg3)) {
 	   percent = percent.sub(upg3);
 	   document.getElementById("percent").innerText = percent;
