@@ -1,8 +1,8 @@
 let percent = normal(-Infinity);
 let charge = normal(0);
 let upg1 = normal(1);
-let upg2 = normal(2.3);
-let upg3 = normal(-Infinity);
+let upg2 = normal(2.39794);
+let upg3 = normal(3.39794);
 let upg4 = normal(3.69897);
 
 setInterval(function() {
