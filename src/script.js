@@ -1,9 +1,9 @@
-let percent = new Decimal(0);
-let charge = new Decimal(1);
-let upg1 = new Decimal(10);
-let upg2 = new Decimal(250);
-let upg3 = new Decimal(2500);
-let upg4 = new Decimal(5000);
+let percent = normal(-Infinity);
+let charge = normal(0);
+let upg1 = normal(1);
+let upg2 = normal(2.3);
+let upg3 = normal(-Infinity);
+let upg4 = normal(3.69897);
 
 setInterval(function() {
   percent = percent.add(charge);
