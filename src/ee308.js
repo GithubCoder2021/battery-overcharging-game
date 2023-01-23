@@ -39,8 +39,8 @@ function divideLogs(a,b) {
   return a - b;
 }
 
-function exponentLogs(a,b,bInLog?) {
-  if (bInLog? == 0) {
+function exponentLogs(a,b,bInLog) {
+  if (bInLog == 0) {
     return a * b;
   } else {
     return a * (10**b);
