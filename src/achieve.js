@@ -25,7 +25,7 @@ const AchNames ={
   a24: "How did I get here?",
 }
 const tooltips ={
-  t1: "Reach 10%",
+  t1: "Buy a upgrade",
   t2: "Reach 100%",
   t3: "Reach 1000%",
   t4: "Reach 1,000,000%",
@@ -50,4 +50,11 @@ const tooltips ={
   t23: "Reach 1.79e308% and go infinity",
   t24: "Get 10 IP",
 }
+
+const gameReq = {
+  charge.gte(2),
+  percent.gte(2)
+}
+
+
 
