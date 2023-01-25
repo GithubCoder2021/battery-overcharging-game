@@ -25,7 +25,6 @@ setInterval (function() {
   "Batteries go all the way back to 1780. Figure out the rest of the history of batteries yourself!",
   "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",];
 
-document.getElementById("news").innerText = news[Math.floor(Math.random()*news.length)];
+  document.getElementById("news").innerText = news[Math.floor(Math.random()*news.length)];
 }, 10000);
-
   
